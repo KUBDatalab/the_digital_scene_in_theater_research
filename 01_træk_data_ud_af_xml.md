@@ -201,4 +201,4 @@ Lars Kjær, lakj@kb.dk
 
 ## Citation
 
-Lars Kjær, The Digital Scene in Theatre Research, 2022, https://kubdatalab.github.io/the_digital_scene_in_theatre_research/
+Lars Kjær, The Digital Scene in Theatre Research, 2022, https://github.com/KUBDatalab/the_digital_scene_in_theatre_research
