@@ -17,3 +17,5 @@ Siden er tilrettelagt og bliver vedligeholdt af Lars Kjær, lakj@kb.dk
 ## Citation
 
 Lars Kjær, The Digital Scene in Theatre Research, 2022, (https://kubdatalab.github.io/the_digital_scene_in_theatre_research/)
+
+![Forside på Den politiske kandestøber fra 1722](https://raw.githubusercontent.com/KUBDatalab/the_digital_scene_in_theatre_research/main/hansmickelsen_1t_1723_00024.jpg)
