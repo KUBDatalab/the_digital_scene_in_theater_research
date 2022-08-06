@@ -21,4 +21,4 @@ Lars Kjær, The Digital Scene in Theatre Research, 2022, (https://kubdatalab.git
 *Billede*
 ![Forside på Den politiske kandestøber fra 1722](https://raw.githubusercontent.com/KUBDatalab/the_digital_scene_in_theatre_research/main/hansmickelsen_1t_1723_00024.jpg)
 
-_Forside _på _Den _politiske _kandestøber _fra _1722. _Kilde_:http://holbergsskrifter.dk/holberg-public/view?docId=skuespill/Den_Politiske_Kandstoeber/Kandst.page;toc.depth=1;brand=&chunk.id=start 
+Forside på Den politiske  kandestøber fra 1722. _Kilde_:http://holbergsskrifter.dk/holberg-public/view?docId=skuespill/Den_Politiske_Kandstoeber/Kandst.page;toc.depth=1;brand=&chunk.id=start 
