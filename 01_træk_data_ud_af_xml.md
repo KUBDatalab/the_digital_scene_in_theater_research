@@ -165,7 +165,7 @@ print(stages)
     ['Collegium Politicum præsenteres i et Wertshuus.', 'I det hand peeger paa Donaustrømmen, støder hand Kruset om med Albuen, saa at Landkortet forderves.', 'De leer allesammen. Ha, ha, ha.', 'Geske. Collegium Politicum. ', 'Hun gier ham Ørefigen.', 'Hand lader som hand vil slaae, men begynder paa nye at tælle til 20.', 'Gieske skielder uden for.', 'Collegium Politicum.', 'De komme i sterck Skielderie og taler en i Munden paa en anden, reiser sig af Stoelene, truer og stoier. Herman slaar imod Bordet og raaber:', 'Paa Vejen disputerer de og stoier om det forrige.']
     
 
-I hvert akt er hvert tekst afsnit opmærket med tagget 'sp'. Koden nedenfor printer de to første afsnit i andet akt. 
+I hvert akt er hvert tekstafsnit opmærket med tagget 'sp'. Koden nedenfor printer de to første afsnit i andet akt. 
 Læg mærke til, at elementerne i 'speaker-taggene' er inkluderet i sp-taggene. Det er Gert Buntmager, der siger første replik 
 og Sivert Pose-Kiger, der siger anden replik.  
 
@@ -191,12 +191,12 @@ print (p[0:2])
     ['Det vil altsammen give sig paa neste Rigsdag; gid jeg var der en Time. Jeg vilde viske Chur-Fyrsten af Mayntz noget i Ørene, som hand skulde tacke mig for. De got Folck veed icke, hvorudi Tysklands Interesse bestaar. Hvor har mand nogen Tid hørt en Keyserlig Residentz Stad som Wien uden Flode eller i det ringeste uden Gallejer? de kunde nock holde en Krigs-Flode til Rigets Forsvar, der gives jo nock Krigssteur og nock Romer-Monathen dertil. See om icke Tyrcken er klogere. Vi kand aldrig lære bedre at føre Krig end af ham. Der er jo Skove nock baade i Øster-Rigeog Prag, dersom mand kun vil bruge dem enten til Skibe eller Master. Hafde vi en Flode i Øster-Rige eller Prag, da lod nock Tyrcken eller Frantzmanden fare at belejre Wien, og vi kunde gaae lige til Constantinopel. Men ingen tencker paa saadant.', 'Nej aldrig nogen Moors Siæl; vore Forfædre har været langt klogere. Det kommer alt paa Anstalter. Tyskland er icke større nu end det var i gamle Dage, da vi icke alleene forsvarede os berømmelig mod alle vore Naboer, men end og tog ind stoore Stycker af Franckerige, og beleyrede Paris selv baade til Lands og Vands.']
     
 
-Notebooken viser eksempler på, hvordan data kan trækkes ud af xml-filer. Næste trin i en digital analyse kunne være preprocessering for at klargøre teksten til analyse. 
+Vejledningen rummer eksempler på, hvordan data kan trækkes ud af xml-filer. Næste trin i en digital analyse kunne være preprocessering for at klargøre teksten til analyse. 
 
 
 ## Bidrag
 
-Alle bidrag til denne notebook er velkommen!
+Alle bidrag til denne vejledning er velkommen!
 
 
 ## Tilrettelagt af
