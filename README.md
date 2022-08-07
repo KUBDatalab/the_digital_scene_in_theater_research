@@ -19,7 +19,7 @@ Siden er tilrettelagt og bliver vedligeholdt af Lars Kjær, lakj@kb.dk
 Lars Kjær, The Digital Scene in Theater Research, 2022, (https://kubdatalab.github.io/the_digital_scene_in_theater_research/)
 
 ## Dansk Teater 300 År
-[Dansk teater fylder 300 år](https://www.danskteater300aar.dk/) og [KUB Datalab](https://www.kub.kb.dk/datalab) er hoppet med på Holberg begjestringen. I samarbejde med kollegaer 
+[Dansk teater fylder 300 år](https://www.danskteater300aar.dk/) og [KUB Datalab](https://www.kub.kb.dk/datalab) er hoppet med på Holberg begejstringen. I samarbejde med kollegaer 
 fra [Digital Lab](https://www.uib.no/en/digitallab) på Bergens Universitetsbiblioteket udvikler vi kursusmateriale, som baserer sig på 
 digitale udgivelser af Holbergs komedier. Kursusmaterialet er målrettet undervisere på universiteterne, som tager materialet med ud i klasselokalerne 
 og benytter dette til at udbrede kendskabet til digital humaniora blandt studerende. De digitale udgivelser, som kursusmaterialet baserer sig 
