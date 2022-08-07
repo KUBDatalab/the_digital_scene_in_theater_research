@@ -1,4 +1,4 @@
-# The Digital Scene in Theatre Research
+# The Digital Scene in Theater Research
 The Digital Scene in Theatre Research vedrører en digital tilgang til teaterstykker.
 
 Da jeg har oplevet, at humanister kan få udleveret digitaliserede manuskripter, f.eks. fra forlag, arkiver, forskningsinstitutioner, biblioteker 
