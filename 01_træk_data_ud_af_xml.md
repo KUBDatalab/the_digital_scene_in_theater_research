@@ -1,14 +1,13 @@
 # Intro
-Eftersom jeg ofte har oplevet at tekstdata ofte bliver udleveret som enten tei- eller xml-filer, er jeg blevet opmærksom på, at humanister har brug for et kendskab til, hvordan man trækker data ud af opmærkede filer.
+Eftersom jeg ofte har oplevet, at tekstdata ofte bliver udleveret som enten tei- eller xml-filer, er jeg blevet opmærksom på, at humanister har brug for et kendskab til, hvordan man trækker data ud af opmærkede filer.
 
 Opmærkede filer er kendetegnet ved deres særlige datastruktur, der består i at et 'start-tag' og et 'slut-tag' omslutter tekstelementer (se f.eks. https://www.w3schools.com/xml/xml_whatis.asp og https://www.w3schools.com/xml/xml_elements.asp). 
 
-Datastruktureren bliver ofte meget kompleks og jo mere kompleks datastrukturen er, dels mere kompleks bliver den kode, der kan trække data ud.
+Der er ofte mange tags i en opmærket fil, og datastrukturen bliver hurtigt utilgængelig. Dette er problematisk, hvis man skal lære, hvordan man trækker data ud af filerne.
 
-I denne vejledning i at trække data ud af opmærkede filer, benytter jeg en xml-opmærket fil, 
-som jeg har tilpasset, så den ikke er kompleks, fordi på den måde kan man få indblik i, hvordan man trækker data ud af xml uden, at kodningen bliver for kompleks.
+I denne vejledning benytter jeg en xml-opmærket fil, som jeg har tilpasset for at undgå, at vejledningen bliver for kompliceret.
 
-Den tilpassede fil er bygget ud fra en kompleks tei-opmærket fil, som er produceret i projektet Ludvig Holbergs skrifter: https://www.uib.no/ub/71975/ludvig-holbergs-skrifter.
+Den tilpassede fil er baseret på en kompliceret tei-opmærket fil, som er produceret i projektet Ludvig Holbergs skrifter: https://www.uib.no/ub/71975/ludvig-holbergs-skrifter.
 
 Filen indeholder Holberg-komedien "Den Politiske Kandstøber". En komedie opmærket i xml vil ofte være opmærket med tags, der omslutter akter, scener, talere, replikker og så videre.
 
