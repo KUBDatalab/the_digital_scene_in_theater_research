@@ -1,18 +1,21 @@
 # Intro
-Eftersom jeg ofte har oplevet at tekstdata ofte bliver udleveret som enten tei- eller xml-filer, er jeg blevet opmærksom på, at man humanister har brug for et kendskab til, hvordan man trækker data ud af opmærkede filer.
+Eftersom jeg ofte har oplevet at tekstdata ofte bliver udleveret som enten tei- eller xml-filer, er jeg blevet opmærksom på, at humanister har brug for et kendskab til, hvordan man trækker data ud af opmærkede filer.
 
-Opmærkede filer er kendetegnet deres særlige datastruktur, der består i at tags omslutter tekstelementer (se f.eks. https://www.w3schools.com/xml/xml_whatis.asp og https://www.w3schools.com/xml/xml_elements.asp). Datastruktureren bliver ofte meget kompleks og jo mere kompleks datastrukturen er jo mere kompleks bliver den kode, der kan trække data ud.
+Opmærkede filer er kendetegnet ved deres særlige datastruktur, der består i at et 'start-tag' og et 'slut-tag' omslutter tekstelementer (se f.eks. https://www.w3schools.com/xml/xml_whatis.asp og https://www.w3schools.com/xml/xml_elements.asp). 
 
-I denne notebook benytter jeg en xml-opmærket fil, som jeg har tilpasset, så den kan anvendes til at få kendskab til, hvordan man trækker data ud af xml uden, at pythonkoden bliver for kompleks.
+Datastruktureren bliver ofte meget kompleks og jo mere kompleks datastrukturen er, dels mere kompleks bliver den kode, der kan trække data ud.
+
+I denne vejledning i at trække data ud af opmærkede filer, benytter jeg en xml-opmærket fil, 
+som jeg har tilpasset, så den ikke er kompleks, fordi på den måde kan man få indblik i, hvordan man trækker data ud af xml uden, at kodningen bliver for kompleks.
 
 Den tilpassede fil er bygget ud fra en kompleks tei-opmærket fil, som er produceret i projektet Ludvig Holbergs skrifter: https://www.uib.no/ub/71975/ludvig-holbergs-skrifter.
 
-Filen indeholder Holberg komedien Den Politiske Kandstøber. En komedie opmærket i xml vil ofte være opmærket med tags, der omslutter akter, scener, talere, replikker og så videre.
+Filen indeholder Holberg-komedien "Den Politiske Kandstøber". En komedie opmærket i xml vil ofte være opmærket med tags, der omslutter akter, scener, talere, replikker og så videre.
 
-Jeg har besluttet at bruge python biblioteket BeautifulSoup til at trække data ud (https://beautiful-soup-4.readthedocs.io/en/latest/#quick-start). Biblioteket re (regulære udtryk) vil jeg også bruge. Det er til at bearbejde tekstdata.
+Jeg har besluttet at bruge python-biblioteket BeautifulSoup til at trække data ud (https://beautiful-soup-4.readthedocs.io/en/latest/#quick-start). Biblioteket re (regulære udtryk) vil jeg også bruge. Det er til at bearbejde tekstdata.
 
 # Import af biblioteker
-Jeg begynder med at importere bibliokterne.
+Jeg begynder med at importere bibliotekerne.
 
 
 ```python
@@ -33,7 +36,7 @@ with open('C:\\Users\\lakj\\data\\holbergs_comedies\\test1.xml', 'r', encoding='
 soup = BeautifulSoup(file, 'xml')
 ```
 
-Xml's datastruktur er nu gemt i vaiablen soup. Lad os undersøge, hvilke tags den indeholder brugt.
+Xml's datastruktur er nu gemt i vaiablen soup. Lad os undersøge, hvilke tags den indeholder.
 
 
 ```python
@@ -44,7 +47,7 @@ print (set(tags))
     {'date', 'head', 'stage', 'source', 'scene', 'body', 'title', 'speaker', 'titlePage', 'castList', 'role', 'act', 'e_source', 'author', 'front', 'text', 'actor', 'castItem', 'w', 'header', 'performance', 'sp', 'statement', 'p'}
     
 
-Linket til den elektroniske udgave af komedien, som filen filen stammer fra ligger i tagget 'e_source'.
+Linket til den elektroniske udgave af komedien, som filen stammer fra ligger i tagget 'e_source'.
 
 
 ```python
@@ -59,7 +62,7 @@ soup.e_source.text
 
 
 # Udtræk tekstdata
-Neden for trækker jeg tekst ud af datastrukturen.
+Nedenfor trækker jeg tekst ud af datastrukturen.
 
 
 ```python
