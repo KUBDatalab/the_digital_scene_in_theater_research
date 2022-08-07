@@ -35,7 +35,7 @@ with open('C:\\Users\\lakj\\data\\holbergs_comedies\\test1.xml', 'r', encoding='
 soup = BeautifulSoup(file, 'xml')
 ```
 
-Xml's datastruktur er nu gemt i vaiablen soup. Lad os undersøge, hvilke tags den indeholder.
+Datastrukturen er nu gemt i vaiablen 'soup'. Lad os undersøge, hvilke tags den indeholder.
 
 
 ```python
@@ -61,7 +61,7 @@ soup.e_source.text
 
 
 # Udtræk tekstdata
-Nedenfor trækker jeg tekst ud af datastrukturen.
+Nedenfor trækker jeg tekst ud af 'date-', 'title-' og 'author-tags'.
 
 
 ```python
@@ -83,7 +83,7 @@ print(author)
     Ludvig Holberg
     
 
-Der er flere linjer, der har tagget 'role' Derfor må jeg bruge .find_all('role') til at finde alle rolle-tags.
+Der er flere linjer, der har tagget 'role'. Derfor må jeg bruge .find_all('role') til at finde alle rolle-tags.
 .find_all() returnerer en liste, som jeg gemmer i 'role_tags'. Når jeg har en liste, kan jeg bruge en list-comprehension til at gennemløbe alle listens 'items' (i). (https://www.w3schools.com/python/python_lists_comprehension.asp).  
 
 
@@ -96,7 +96,7 @@ print (roles)
     ['Herman von Bremen.', 'Geske hans Hustru.', 'Engelke hans Datter.', 'Antonius hendes Beiler.', 'Henrich Tieneren.', 'Anecke Piigen.']
     
 
-Der er også flere linjer, der har tagget 'actor', så den kan jeg løse på som ovenfor.
+Der er også flere linjer, der har tagget 'actor', så jeg kan benytte samme fremgangsmåde som ovenfor.
 
 
 ```python
@@ -112,8 +112,8 @@ W-tagget indeholder ord, der holdes sammen af bindestreger.
 
 
 ```python
-hyphen_words_tags  = soup.find_all(['w'])
-hyphen_words = [i.text for i in hyphen_words_tags]
+hyphen_word_tags  = soup.find_all(['w'])
+hyphen_words = [i.text for i in hyphen_word_tags]
 
 print(hyphen_words)
 ```
@@ -141,7 +141,7 @@ act2 = soup.find(id="act2")
 act2sc1 = soup.find(id="act2sc1")
 ```
 
-I hvert akt er der flere linjer, der er tagget 'speaker'. Disse linjer fremfindes med .find_all().
+I hvert akt er der flere linjer, der er tagget 'speaker', så jeg bruger igen .find_all().
 
 
 ```python
@@ -165,7 +165,9 @@ print(stages)
     ['Collegium Politicum præsenteres i et Wertshuus.', 'I det hand peeger paa Donaustrømmen, støder hand Kruset om med Albuen, saa at Landkortet forderves.', 'De leer allesammen. Ha, ha, ha.', 'Geske. Collegium Politicum. ', 'Hun gier ham Ørefigen.', 'Hand lader som hand vil slaae, men begynder paa nye at tælle til 20.', 'Gieske skielder uden for.', 'Collegium Politicum.', 'De komme i sterck Skielderie og taler en i Munden paa en anden, reiser sig af Stoelene, truer og stoier. Herman slaar imod Bordet og raaber:', 'Paa Vejen disputerer de og stoier om det forrige.']
     
 
-I hvert akt er hvert tekst afsnit opmærket med tagget 'sp'. Koden nedenfor printer de to første afsnit i andet akt. Læg mærke til at elementerne i 'speaker-taggene' er inkluderet i sp-taggene. Det er Gert Buntmager, der siger første replik og Sivert Pose-Kiger, der siger anden replik.  
+I hvert akt er hvert tekst afsnit opmærket med tagget 'sp'. Koden nedenfor printer de to første afsnit i andet akt. 
+Læg mærke til, at elementerne i 'speaker-taggene' er inkluderet i sp-taggene. Det er Gert Buntmager, der siger første replik 
+og Sivert Pose-Kiger, der siger anden replik.  
 
 
 ```python
@@ -177,7 +179,7 @@ print (sp[0:2])
     ['\nGert Buntmager.\nDet vil altsammen give sig paa neste Rigsdag; gid jeg var der en Time. Jeg vilde viske Chur-Fyrsten af Mayntz noget i Ørene, som hand skulde tacke mig for. De got Folck veed icke, hvorudi Tysklands Interesse bestaar. Hvor har mand nogen Tid hørt en Keyserlig Residentz Stad som Wien uden Flode eller i det ringeste uden Gallejer? de kunde nock holde en Krigs-Flode til Rigets Forsvar, der gives jo nock Krigssteur og nock Romer-Monathen dertil. See om icke Tyrcken er klogere. Vi kand aldrig lære bedre at føre Krig end af ham. Der er jo Skove nock baade i Øster-Rigeog Prag, dersom mand kun vil bruge dem enten til Skibe eller Master. Hafde vi en Flode i Øster-Rige eller Prag, da lod nock Tyrcken eller Frantzmanden fare at belejre Wien, og vi kunde gaae lige til Constantinopel. Men ingen tencker paa saadant.\n', '\nSivert Pose-Kiger.\nNej aldrig nogen Moors Siæl; vore Forfædre har været langt klogere. Det kommer alt paa Anstalter. Tyskland er icke større nu end det var i gamle Dage, da vi icke alleene forsvarede os berømmelig mod alle vore Naboer, men end og tog ind stoore Stycker af Franckerige, og beleyrede Paris selv baade til Lands og Vands.\n']
     
 
-Replikkerne ligger i p-tags. Replikkerne trækkes ud på denne måde. Koden nedenfor printer de første to.
+Replikkerne ligger i p-tags. Replikkerne trækkes ud på denne måde. Koden nedenfor printer de første to replikker.
 
 
 ```python
