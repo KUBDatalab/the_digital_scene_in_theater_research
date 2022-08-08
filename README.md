@@ -33,6 +33,6 @@ papir, der i løbet af årene har opnået en fin støvet nuance.
 Papirmanuskript kan [lånes til læsesal](https://soeg.kb.dk/permalink/45KBDK_KGL/1pioq0f/alma99122071340105763) på Det Kgl. Bibliotek, eller 
 nydes som digital kopi i på [holbergsskrifter.dk](http://holbergsskrifter.dk/holberg-public/view?docId=skuespill/Den_Politiske_Kandstoeber/Kandst.page;toc.depth=1;brand=&chunk.id=start)  
 
-![Forside på Den politiske kandestøber fra 1722](https://raw.githubusercontent.com/KUBDatalab/the_digital_scene_in_theatre_research/main/hansmickelsen_1t_1723_00026.jpg "Forside på Den politiske kandestøber fra 1722.")
+![Rollelisten fra "Den politiske kandestøber" fra 1722](https://raw.githubusercontent.com/KUBDatalab/the_digital_scene_in_theatre_research/main/hansmickelsen_1t_1723_00026.jpg "Forside på Den politiske kandestøber fra 1722.")
 
-Forside på Den politiske  kandestøber fra 1722. _Kilde_: http://holbergsskrifter.dk/holberg-public/view?docId=skuespill/Den_Politiske_Kandstoeber/Kandst.page;toc.depth=1;brand=&chunk.id=start 
+Rollelisten fra "Den politiske kandestøber" fra 1722. _Kilde_: http://holbergsskrifter.dk/holberg-public/view?docId=skuespill/Den_Politiske_Kandstoeber/Kandst.page;toc.depth=1;brand=&chunk.id=start 
