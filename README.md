@@ -7,7 +7,7 @@ ud af opmærkede filer.
 
 Det efterfølgende link fører til en introducerende vejledning i, hvordan man kan trække data ud af xml-filer ved hjælp af Python.
 
-[Træk data ud af xml]**(https://github.com/KUBDatalab/the_digital_scene_in_theater_research/blob/main/01_tr%C3%A6k_data_ud_af_xml.md)** 
+[Træk data ud af xml](https://github.com/KUBDatalab/the_digital_scene_in_theater_research/blob/main/01_tr%C3%A6k_data_ud_af_xml.md)
 
 
 ## Bidrag
